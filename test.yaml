@@ -1,8 +1,46 @@
-fileName: B_1990_3_1of2_f1
 archiveName: Avgangsregister for Sjømenn
-format: cp277
-length: 127
-checksum: 
+startYear:
+endYear:
+applies_to:
+    - sha256:foo
+    - sha256:foo2
+# physical_block_length
+# Raw block size - not related to logical file format (non-vendor specific)
+# default: 0 (no blocks)
+physical_block_length:0
+
+# physical_block_pad_length
+# Raw block padding - not related to logical file format (non-vendor specific)
+# default: 0 (no padding)
+physical_block_pad_length:0
+
+# file_format
+# standard, sequential, sintran80
+# default: standard
+file_format:standard
+
+# logical_block_length
+# Logical block size - related to logical file format (vendor specific)
+# default: 0 (no blocks)
+logical_block_length:0
+
+# logical_block_pad_length
+# Logical block padding - not related to logical file format (vendor specific)
+# default: 0 (no padding)
+logical_block_padding_length:0
+
+# post_length
+# Logical record size in bytes
+post_length:127
+
+# input_charsets
+# Comma seperates list of charset conversions necessary to decode data
+input_charsets:cp277
+
+# output_charset
+# Target output charset
+# default: utf8
+output_charset:utf8
 columns:
     - columnStart: 18
       columnEnd: 39
