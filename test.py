@@ -1,8 +1,12 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
 import ebcdic
 import yaml
 import re
 import argparse
-
+import glob
+ 
 # Setting up argparse
 parser = argparse.ArgumentParser(description='EBCDIC to-human-readable script')
 parser.add_argument('--configfile', type=str, help='Path to config')
@@ -14,9 +18,9 @@ if sys_args.configfile:
 
 # Open file from config
 ## trenger buffret innlesning
-fileIn = open(config['fileName']).read().decode(config['format'])
+fileIn = open(config['fileName']).read().decode(config['input_charset'])
 
-recordsList = map(''.join, zip(*[iter(fileIn)]*config['length']))
+recordsList = map(''.join, zip(*[iter(fileIn)]*config['post_length']))
 fileIn = ''
 
 ## Skriv inn sjekk mot SHA
