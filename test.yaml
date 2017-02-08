@@ -2,45 +2,44 @@ archiveName: Avgangsregister for Sjømenn
 startYear:
 endYear:
 applies_to:
-    - sha256:foo
-    - sha256:foo2
+    - 528de1bb6d82a002b835f1f5a0c1b8bdd091abeaf79a27d367f8f801ffc9db10
 # physical_block_length
 # Raw block size - not related to logical file format (non-vendor specific)
 # default: 0 (no blocks)
-physical_block_length:0
+physical_block_length: 0
 
 # physical_block_pad_length
 # Raw block padding - not related to logical file format (non-vendor specific)
 # default: 0 (no padding)
-physical_block_pad_length:0
+physical_block_pad_length: 0
 
 # file_format
 # standard, sequential, sintran80
 # default: standard
-file_format:standard
+file_format: standard
 
 # logical_block_length
 # Logical block size - related to logical file format (vendor specific)
 # default: 0 (no blocks)
-logical_block_length:0
+logical_block_length: 0
 
 # logical_block_pad_length
 # Logical block padding - not related to logical file format (vendor specific)
 # default: 0 (no padding)
-logical_block_padding_length:0
+logical_block_padding_length: 0
 
 # post_length
 # Logical record size in bytes
-post_length:127
+post_length: 127
 
 # input_charsets
 # Comma seperates list of charset conversions necessary to decode data
-input_charsets:cp277
+input_charsets: cp277
 
 # output_charset
 # Target output charset
 # default: utf8
-output_charset:utf8
+output_charset: utf8
 columns:
     - columnStart: 18
       columnEnd: 39
@@ -145,7 +144,7 @@ columns:
           columnConditionStart: 11
           columnConditionEnd: 13
           columnConditionCondition: '41'
-   - columnStart: 28
+    - columnStart: 28
       columnEnd: 30
       columnName: SERTSTED
       columnValidation:
@@ -153,7 +152,7 @@ columns:
           columnConditionStart: 11
           columnConditionEnd: 13
           columnConditionCondition: '41'
-   - columnStart: 30
+    - columnStart: 30
       columnEnd: 40
       columnName: AA-KODE13
       columnValidation:
@@ -177,7 +176,7 @@ columns:
           columnConditionStart: 11
           columnConditionEnd: 13
           columnConditionCondition: '42'
-   - columnStart: 26
+    - columnStart: 26
       columnEnd: 51
       columnName: AA-ANMERK
       columnValidation:
@@ -185,7 +184,7 @@ columns:
           columnConditionStart: 11
           columnConditionEnd: 13
           columnConditionCondition: '42'
-   - columnStart: 51
+    - columnStart: 51
       columnEnd: 52
       columnName: AA-KODE17
       columnValidation:

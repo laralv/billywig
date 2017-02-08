@@ -17,12 +17,13 @@ if sys_args.configfile:
     config = yaml.safe_load(open(sys_args.configfile).read())
 ## Her trengs exception hvis config ikke eksisterer
 
-# makes a dictonary of sha256 hashes 
+# Checking hashes against files in folder. 
 fileList = glob.glob('*')
-hashList = {}
+fileMatchList = []
 for fileHash in fileList:
-    hashList[hashlib.sha256(open(fileHash, 'rb').read()).hexdigest()] = fileHash
-print(hashList)
+    if hashlib.sha256(open(fileHash, 'rb').read()).hexdigest() in config['applies_to']:
+        print(fileHash)
+        fileMatchList.append(fileHash)
 
 # Open file from config
 ## trenger buffret innlesning
