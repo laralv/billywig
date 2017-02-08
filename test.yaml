@@ -2,7 +2,8 @@ archiveName: Avgangsregister for Sjømenn
 startYear:
 endYear:
 applies_to:
-    - 528de1bb6d82a002b835f1f5a0c1b8bdd091abeaf79a27d367f8f801ffc9db10
+    - 09b72367cc623a1a192d6c030c049e30ba908839311462fa8a5192e2a27deaf6
+    - 839978b512abb11d84d435b6dbc1e1307b0afeebd0d9bb38a8c6b2f2b5cfc8b8
 # physical_block_length
 # Raw block size - not related to logical file format (non-vendor specific)
 # default: 0 (no blocks)
@@ -33,13 +34,14 @@ logical_block_padding_length: 0
 post_length: 127
 
 # input_charsets
-# Comma seperates list of charset conversions necessary to decode data
-input_charsets: cp277
+## Needs implementation of list of input charsets.
+input_charset: cp277
 
 # output_charset
 # Target output charset
 # default: utf8
 output_charset: utf8
+
 columns:
     - columnStart: 18
       columnEnd: 39

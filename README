@@ -5,6 +5,7 @@ Dependencies:
     - PyYAML
 
 Usage:
+    python3 billywig.py --configfile config_file --output outputfilename
     python billywig.py -configs_folder=foo1 input_data_folder output_data_folder
 
 Config Options:
