@@ -194,12 +194,283 @@ columns:
           columnConditionStart: 11
           columnConditionEnd: 13
           columnConditionCondition: '42'
-    - columnStart: 
-      columnEnd: 
-      columnName: 
+    - columnStart: 18
+      columnEnd: 39
+      columnName: AA-TNAVN
       columnValidation:
       columnCondition: 
           columnConditionStart: 11
           columnConditionEnd: 13
           columnConditionCondition: '43'
-
+    - columnStart: 39
+      columnEnd: 43
+      columnName: AA-DATO-TNAVN
+      columnValidation:
+      columnCondition: 
+          columnConditionStart: 11
+          columnConditionEnd: 13
+          columnConditionCondition: '43'
+   - columnStart: 43
+      columnEnd: 47
+      columnName: AA-NAVNE-LEG
+      columnValidation:
+      columnCondition: 
+          columnConditionStart: 11
+          columnConditionEnd: 13
+          columnConditionCondition: '43'
+   - columnStart: 47
+      columnEnd: 50
+      columnName: AA-TNASJ
+      columnValidation:
+      columnCondition: 
+          columnConditionStart: 11
+          columnConditionEnd: 13
+          columnConditionCondition: '43'
+   - columnStart: 50
+      columnEnd: 54
+      columnName: AA-DATO-TNASJ
+      columnValidation:
+      columnCondition: 
+          columnConditionStart: 11
+          columnConditionEnd: 13
+          columnConditionCondition: '43'
+    - columnStart: 54
+      columnEnd: 58
+      columnName: AA-NASJ-LEG
+      columnValidation:
+      columnCondition: 
+          columnConditionStart: 11
+          columnConditionEnd: 13
+          columnConditionCondition: '43'
+    - columnStart: 58
+      columnEnd: 62
+      columnName: AA-TKOMM
+      columnValidation:
+      columnCondition: 
+          columnConditionStart: 11
+          columnConditionEnd: 13
+          columnConditionCondition: '43'
+    - columnStart: 62
+      columnEnd: 64
+      columnName: AA-TDISTR
+      columnValidation:
+      columnCondition: 
+          columnConditionStart: 11
+          columnConditionEnd: 13
+          columnConditionCondition: '43'
+    - columnStart: 64
+      columnEnd: 68
+      columnName: AA-DATO-TKOMM
+      columnValidation:
+      columnCondition: 
+          columnConditionStart: 11
+          columnConditionEnd: 13
+          columnConditionCondition: '43'
+    - columnStart: 68
+      columnEnd: 72
+      columnName: AA-KOMM-LEG
+      columnValidation:
+      columnCondition: 
+          columnConditionStart: 11
+          columnConditionEnd: 13
+          columnConditionCondition: '43'
+    - columnStart: 18 
+      columnEnd: 19
+      columnName: AA-KODE9
+      columnValidation:
+      columnCondition: 
+          columnConditionStart: 11
+          columnConditionEnd: 13
+          columnConditionCondition: '60'
+    - columnStart: 19
+      columnEnd: 25
+      columnName: AA-MDATO1
+      columnValidation:
+      columnCondition: 
+          columnConditionStart: 11
+          columnConditionEnd: 13
+          columnConditionCondition: '60'
+    - columnStart: 25
+      columnEnd: 28
+      columnName: AA-MSTED
+      columnValidation:
+      columnCondition: 
+          columnConditionStart: 11
+          columnConditionEnd: 13
+          columnConditionCondition: '60'
+    - columnStart: 28
+      columnEnd: 34
+      columnName: AA-TILTRDATO
+      columnValidation:
+      columnCondition: 
+          columnConditionStart: 11
+          columnConditionEnd: 13
+          columnConditionCondition: '60'
+    - columnStart: 34
+      columnEnd: 40
+      columnName: AA-HYREFRA-DATO'
+      columnValidation:
+      columnCondition: 
+          columnConditionStart: 11
+          columnConditionEnd: 13
+          columnConditionCondition: '60'
+    - columnStart: 40
+      columnEnd: 43
+      columnName: AA-STILL
+      columnValidation:
+      columnCondition: 
+          columnConditionStart: 11
+          columnConditionEnd: 13
+          columnConditionCondition: '60'
+    - columnStart: 43
+      columnEnd: 44
+      columnName: AA-KODE10
+      columnValidation:
+      columnCondition: 
+          columnConditionStart: 11
+          columnConditionEnd: 13
+          columnConditionCondition: '60'
+    - columnStart: 44
+      columnEnd: 45
+      columnName: AA-VIRKSOMHET
+      columnValidation:
+      columnCondition: 
+          columnConditionStart: 11
+          columnConditionEnd: 13
+          columnConditionCondition: '60'
+    - columnStart: 45
+      columnEnd: 46
+      columnName: AA-FART
+      columnValidation:
+      columnCondition: 
+          columnConditionStart: 11
+          columnConditionEnd: 13
+          columnConditionCondition: '60'
+    - columnStart: 46
+      columnEnd: 47
+      columnName: AA-AMB
+      columnValidation:
+      columnCondition: 
+          columnConditionStart: 11
+          columnConditionEnd: 13
+          columnConditionCondition: '60'
+    - columnStart: 47
+      columnEnd: 48
+      columnName: AA-MIL-RECORD60
+      columnValidation:
+      columnCondition: 
+          columnConditionStart: 11
+          columnConditionEnd: 13
+          columnConditionCondition: '60'
+    - columnStart: 48
+      columnEnd: 50
+      columnName: AA-HYRETYPE
+      columnValidation:
+      columnCondition: 
+          columnConditionStart: 11
+          columnConditionEnd: 13
+          columnConditionCondition: '60'
+    - columnStart: 50
+      columnEnd: 52
+      columnName: AA-BILAGSKODE1
+      columnValidation:
+      columnCondition: 
+          columnConditionStart: 11
+          columnConditionEnd: 13
+          columnConditionCondition: '60'
+    - columnStart: 52
+      columnEnd: 58
+      columnName: AA-MDATO2
+      columnValidation:
+      columnCondition: 
+          columnConditionStart: 11
+          columnConditionEnd: 13
+          columnConditionCondition: '60'
+    - columnStart: 58
+      columnEnd: 61
+      columnName: AA-MSTED2
+      columnValidation:
+      columnCondition: 
+          columnConditionStart: 11
+          columnConditionEnd: 13
+          columnConditionCondition: '60'
+    - columnStart: 61
+      columnEnd: 67
+      columnName: AA-FRATRDATO
+      columnValidation:
+      columnCondition: 
+          columnConditionStart: 11
+          columnConditionEnd: 13
+          columnConditionCondition: '60'
+    - columnStart: 67
+      columnEnd: 68
+      columnName: AA-AVAARS
+      columnValidation:
+      columnCondition: 
+          columnConditionStart: 11
+          columnConditionEnd: 13
+          columnConditionCondition: '60'
+    - columnStart: 68
+      columnEnd: 71
+      columnName: AA-FERIE-FRI
+      columnValidation:
+      columnCondition: 
+          columnConditionStart: 11
+          columnConditionEnd: 13
+          columnConditionCondition: '60'
+    - columnStart: 71
+      columnEnd: 73
+      columnName: AA-BILAGSKODE2
+      columnValidation:
+      columnCondition: 
+          columnConditionStart: 11
+          columnConditionEnd: 13
+          columnConditionCondition: '60'
+    - columnStart: 73
+      columnEnd: 74
+      columnName: AA-KODE15
+      columnValidation:
+      columnCondition: 
+          columnConditionStart: 11
+          columnConditionEnd: 13
+          columnConditionCondition: '60'
+    - columnStart: 74
+      columnEnd: 78
+      columnName: AA-REDERNR
+      columnValidation:
+      columnCondition: 
+          columnConditionStart: 11
+          columnConditionEnd: 13
+          columnConditionCondition: '60'
+    - columnStart: 78
+      columnEnd: 107
+      columnName: AA-SKIPSNAVN
+      columnValidation:
+      columnCondition: 
+          columnConditionStart: 11
+          columnConditionEnd: 13
+          columnConditionCondition: '60'
+    - columnStart: 107
+      columnEnd: 115
+      columnName: AA-KJSIGN
+      columnValidation:
+      columnCondition: 
+          columnConditionStart: 11
+          columnConditionEnd: 13
+          columnConditionCondition: '60'
+    - columnStart: 115
+      columnEnd: 124
+      columnName: AA-REDER-BAATNR
+      columnValidation:
+      columnCondition: 
+          columnConditionStart: 11
+          columnConditionEnd: 13
+          columnConditionCondition: '60'
+    - columnStart: 124
+      columnEnd: 127
+      columnName: AA-SKNASJ
+      columnValidation:
+      columnCondition: 
+          columnConditionStart: 11
+          columnConditionEnd: 13
+          columnConditionCondition: '60'
