@@ -210,7 +210,7 @@ columns:
           columnConditionStart: 11
           columnConditionEnd: 13
           columnConditionCondition: '43'
-   - columnStart: 43
+    - columnStart: 43
       columnEnd: 47
       columnName: AA-NAVNE-LEG
       columnValidation:
@@ -218,7 +218,7 @@ columns:
           columnConditionStart: 11
           columnConditionEnd: 13
           columnConditionCondition: '43'
-   - columnStart: 47
+    - columnStart: 47
       columnEnd: 50
       columnName: AA-TNASJ
       columnValidation:
@@ -226,7 +226,7 @@ columns:
           columnConditionStart: 11
           columnConditionEnd: 13
           columnConditionCondition: '43'
-   - columnStart: 50
+    - columnStart: 50
       columnEnd: 54
       columnName: AA-DATO-TNASJ
       columnValidation:
