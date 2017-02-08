@@ -1,0 +1,166 @@
+fileName: B_1990_3_1of2_f1
+archiveName: Avgangsregister for Sjømenn
+format: cp277
+length: 127
+checksum: 
+columns:
+    - columnStart: 18
+      columnEnd: 39
+      columnName: AA-ANAVN
+      columnValidation:  
+      columnCondition:
+          columnConditionStart: 11
+          columnConditionEnd: 13
+          columnConditionCondition: '30'
+    - columnStart: 0
+      columnEnd: 11
+      columnName: fnr
+      columnValidation: "^\\d{11}$"
+      columnCondition: 
+    - columnStart: 11
+      columnEnd: 13
+      columnName: recordtype
+      columnValidation: 
+      columnCondition: 
+    - columnStart: 13
+      columnEnd: 16
+      columnName: recordteller
+      columnValidation:
+      columnCondition: 
+    - columnStart: 40
+      columnEnd: 43
+      columnName: AA-NASJ
+      columnValidation:
+      columnCondition: 
+          columnConditionStart: 11
+          columnConditionEnd: 13
+          columnConditionCondition: '30'
+    - columnStart: 42 
+      columnEnd: 44
+      columnName: AA-ADISTR
+      columnValidation: 
+      columnCondition: 
+          columnConditionStart: 11
+          columnConditionEnd: 13
+          columnConditionCondition: '30'
+    - columnStart: 44
+      columnEnd: 45
+      columnName: AA-AREG-GR
+      columnValidation:
+      columnCondition: 
+        - columnConditionStart: 11
+          columnConditionEnd: 13
+          columnConditionCondition: '30'
+    - columnStart: 45
+      columnEnd: 51
+      columnName: AA-DOEDSDATO
+      columnValidation:
+      columnCondition: 
+          columnConditionStart: 11
+          columnConditionEnd: 13
+          columnConditionCondition: '30'
+    - columnStart: 51
+      columnEnd: 52
+      columnName: AA-DKODE11
+      columnValidation:
+      columnCondition: 
+          columnConditionStart: 11
+          columnConditionEnd: 13
+          columnConditionCondition: '30'
+    - columnStart: 18
+      columnEnd: 28
+      columnName: AA-NAVNFORTS
+      columnValidation:
+      columnCondition: 
+          columnConditionStart: 11
+          columnConditionEnd: 13
+          columnConditionCondition: '40'
+    - columnStart: 28
+      columnEnd: 29
+      columnName: AA-MERNAVN
+      columnValidation:
+      columnCondition: 
+          columnConditionStart: 11
+          columnConditionEnd: 13
+          columnConditionCondition: '40'
+    - columnStart: 19
+      columnEnd: 20
+      columnName: AA-KODE8
+      columnValidation:
+      columnCondition: 
+          columnConditionStart: 11
+          columnConditionEnd: 13
+          columnConditionCondition: '41'
+    - columnStart: 20
+      columnEnd: 22
+      columnName: AA-SERTYPE
+      columnValidation:
+      columnCondition: 
+          columnConditionStart: 11
+          columnConditionEnd: 13
+          columnConditionCondition: '41'
+    - columnStart: 22
+      columnEnd: 28
+      columnName: AA-SERTDATO
+      columnValidation:
+      columnCondition: 
+          columnConditionStart: 11
+          columnConditionEnd: 13
+          columnConditionCondition: '41'
+   - columnStart: 28
+      columnEnd: 30
+      columnName: SERTSTED
+      columnValidation:
+      columnCondition: 
+          columnConditionStart: 11
+          columnConditionEnd: 13
+          columnConditionCondition: '41'
+   - columnStart: 30
+      columnEnd: 40
+      columnName: AA-KODE13
+      columnValidation:
+      columnCondition: 
+          columnConditionStart: 11
+          columnConditionEnd: 13
+          columnConditionCondition: '41'
+    - columnStart: 18
+      columnEnd: 20
+      columnName: AA-RECORD-TYPE'
+      columnValidation:
+      columnCondition: 
+          columnConditionStart: 11
+          columnConditionEnd: 13
+          columnConditionCondition: '42'
+    - columnStart: 20
+      columnEnd: 26
+      columnName: AA-REFDATO
+      columnValidation:
+      columnCondition: 
+          columnConditionStart: 11
+          columnConditionEnd: 13
+          columnConditionCondition: '42'
+   - columnStart: 26
+      columnEnd: 51
+      columnName: AA-ANMERK
+      columnValidation:
+      columnCondition: 
+          columnConditionStart: 11
+          columnConditionEnd: 13
+          columnConditionCondition: '42'
+   - columnStart: 51
+      columnEnd: 52
+      columnName: AA-KODE17
+      columnValidation:
+      columnCondition: 
+          columnConditionStart: 11
+          columnConditionEnd: 13
+          columnConditionCondition: '42'
+    - columnStart: 
+      columnEnd: 
+      columnName: 
+      columnValidation:
+      columnCondition: 
+          columnConditionStart: 11
+          columnConditionEnd: 13
+          columnConditionCondition: '43'
+
