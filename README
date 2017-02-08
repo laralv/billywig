@@ -3,3 +3,16 @@ Written for Python 3.
 Dependencies:
     - ebcdic
     - PyYAML
+
+Usage:
+    python billywig.py -configs_folder=foo1 input_data_folder output_data_folder
+
+Config Options:
+    - See example.yaml
+
+Description:
+
+    Billywig is a package of scripts and configurations used for decoding and converting of data files according to a given set of format 
+    specifications and rulesets. It was originally designed for use by FOOBAR of FOOBAR, where a number of archaic archive data formats 
+    exist but neither off-the-shelf or opensource code is available for intepreting them.
+
