@@ -6,7 +6,8 @@ import yaml
 import re
 import argparse
 import glob
- 
+import hashlib
+
 # Setting up argparse
 parser = argparse.ArgumentParser(description='EBCDIC to-human-readable script')
 parser.add_argument('--configfile', type=str, help='Path to config')
@@ -15,6 +16,13 @@ sys_args = parser.parse_args()
 if sys_args.configfile:
     config = yaml.safe_load(open(sys_args.configfile).read())
 ## Her trengs exception hvis config ikke eksisterer
+
+# makes a dictonary of sha256 hashes 
+fileList = glob.glob('*')
+hashList = {}
+for fileHash in fileList:
+    hashList[hashlib.sha256(open(fileHash, 'rb').read()).hexdigest()] = fileHash
+print(hashList)
 
 # Open file from config
 ## trenger buffret innlesning
@@ -40,5 +48,5 @@ for record in recordsList:
                     record_json[column['columnName']] = record[column['columnStart']:column['columnEnd']]
             continue
         record_json[column['columnName']] = record[column['columnStart']:column['columnEnd']]
-    print record_json
+    print(record_json)
 
