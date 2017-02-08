@@ -1,0 +1,5 @@
+Written for Python 3.
+
+Dependencies:
+    - ebcdic
+    - PyYAML
