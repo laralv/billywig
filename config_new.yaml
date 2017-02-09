@@ -1,0 +1,163 @@
+archiveName: Avgangsregister for Sjømenn
+startYear:
+endYear:
+applies_to:
+    - 09b72367cc623a1a192d6c030c049e30ba908839311462fa8a5192e2a27deaf6
+    - 839978b512abb11d84d435b6dbc1e1307b0afeebd0d9bb38a8c6b2f2b5cfc8b8
+# physical_block_length
+# Raw block size - not related to logical file format (non-vendor specific)
+# default: 0 (no blocks)
+physical_block_length: 0
+
+# physical_block_pad_length
+# Raw block padding - not related to logical file format (non-vendor specific)
+# default: 0 (no padding)
+physical_block_pad_length: 0
+
+# file_format
+# standard, sequential, sintran80
+# default: standard
+file_format: standard
+
+# logical_block_length
+# Logical block size - related to logical file format (vendor specific)
+# default: 0 (no blocks)
+logical_block_length: 0
+
+# logical_block_pad_length
+# Logical block padding - not related to logical file format (vendor specific)
+# default: 0 (no padding)
+logical_block_padding_length: 0
+
+# post_length
+# Logical record size in bytes
+post_length: 127
+
+# input_charsets
+# Needs implementation of list of input charsets.
+input_charset: cp277
+
+# output_charset
+# Target output charset
+# default: utf8
+output_charset: utf8
+
+# record_type
+# used for files with varying record types interlaced vertically in single data file
+# record_type should always be read first, as it may contain information related to the length of the post
+# if record_type is preceded by other data elements, these should be re-read based on the record type specification 
+
+record_type:
+  startByte: 11
+  endByte: 13
+  type: string
+
+record_types:
+   - record_type:"30"
+     - column:fnr
+          start:0
+          end:11
+          type:string
+          validation:"^\\d{11}$"
+     - column:AA-RECORD-TYPE
+          start:11
+          end:13
+          type:string
+     - column:recordteller
+          start:13
+          end:16
+          type:string
+      - column:AA-ANAVN
+          start:18
+          end:39
+          type:string
+      - column:AA-NASJ 
+          start:40
+          end:43
+          type:string
+      - column:AA-ADISTR 
+          start:43
+          end:44
+          type:string
+      - column:AA-AREG-GR
+          start:44
+          end:45
+          type:string
+      - column:AA-DOEDSDATO
+          start:45
+          end:51
+          type:string
+      - column:AA-DKODE11
+          start:51
+          end:52
+          type:string
+    - record_type:"40"
+      - column:fnr
+          start:0
+          end:11
+          type:string
+          validation:"^\\d{11}$"
+      - column:AA-RECORD-TYPE
+          start:11
+          end:13
+          type:string
+      - column:recordteller
+          start:13
+          end:16
+          type:string
+      - column:AA-NAVNFORTS
+          start:18
+          end:28
+          type:string
+    - column:AA-MERNAVN
+          start:28
+          end:29
+          type:string
+   - record_type:"41"
+      - column:fnr
+          start:0
+          end:11
+          type:string
+          validation:"^\\d{11}$"
+     - column:AA-RECORD-TYPE
+          start:11
+          end:13
+          type:string
+     - column:recordteller
+          start:13
+          end:16
+          type:string
+    - column:AA-KODE8
+          start:19
+          end:20
+          type:string
+    - column:AA-SERTYPE
+          start:20
+          end:22
+          type:string
+    - column:AA-SERTDATO
+          start:22
+          end:28
+          type:string
+    - column:AA-SERTSTED
+          start:28
+          end:30
+          type:string
+    - column:AA-KODE13
+          start:30
+          end:40
+          type:string
+   - record_type:"42"
+      - column:fnr
+          start:0
+          end:11
+          type:string
+          validation:"^\\d{11}$"
+      - column:AA-RECORD-TYPE
+          start:11
+          end:13
+          type:string
+      - column:recordteller
+          start:13
+          end:16
+          type:string
