@@ -119,10 +119,6 @@ record_types:
           end:11
           type:string
           validation:"^\\d{11}$"
-     - column:AA-RECORD-TYPE
-          start:11
-          end:13
-          type:string
      - column:recordteller
           start:13
           end:16
@@ -153,11 +149,183 @@ record_types:
           end:11
           type:string
           validation:"^\\d{11}$"
-      - column:AA-RECORD-TYPE
-          start:11
-          end:13
-          type:string
-      - column:recordteller
+       - column:recordteller
           start:13
           end:16
+          type:string
+      - column:AA-RECORD-TYPE
+          start:18
+          end:20
+          type:string
+      - column:AA-REFDATO
+          start:20
+          end:26
+          type:string
+      - column:AA-ANMERK
+          start:26
+          end:51
+          type:string
+      - column:AA-KODE17
+          start:51
+          end:52
+          type:string
+   - record_type:"43"
+      - column:fnr
+          start:0
+          end:11
+          type:string
+          validation:"^\\d{11}$"
+     - column:recordteller
+          start:13
+          end:16
+          type:string
+     - column:AA-TNAVN
+          start:18
+          end:39
+          type:string
+     - column:AA-DATO-TNAVN
+          start:39
+          end:43
+          type:string
+     - column:AA-NAVNE-LEG
+          start:43
+          end:47
+          type:string
+     - column:AA-TNASJ
+          start:47
+          end:50
+          type:string
+     - column:AA-DATO-TNASJ
+          start:50
+          end:54
+          type:string
+     - column:AA-NASJ-LEG
+          start:54
+          end:58
+          type:string
+     - column:AA-TKOMM
+          start:58
+          end:62
+          type:string
+     - column:AA-TDISTR
+          start:62
+          end:64
+          type:string
+     - column:AA-DATO-TKOMM
+          start:64
+          end:68
+          type:string
+     - column:AA-KOMM-LEG
+          start:68
+          end:72
+          type:string
+   - record_type:"60"
+      - column:fnr
+          start:0
+          end:11
+          type:string
+          validation:"^\\d{11}$"
+     - column:recordteller
+          start:13
+          end:16
+          type:string     
+     - column:AA-KODE9
+          start:18
+          end:19
+          type:string
+     - column:AA-MDATO1
+          start:19
+          end:25
+          type:string
+     - column:AA-MSTED
+          start:25
+          end:28
+          type:string
+     - column:AA-TILTRDATO
+          start:28
+          end:34
+          type:string
+     - column:AA-HYREFRA-DATO
+          start:34
+          end:40
+          type:string
+     - column:AA-STILL
+          start:40
+          end:43
+          type:string
+        - column:AA-KODE10
+          start:43
+          end:44
+          type:string
+     - column:AA-VIRKSOMHET
+          start:44
+          end:45
+          type:string
+     - column:AA-FART
+          start:45
+          end:46
+          type:string
+     - column:AA-AMB
+          start:46
+          end:47
+          type:string
+     - column:AA-MIL-RECORD60
+          start:47
+          end:48
+          type:string
+     - column:AA-HYRETYPE
+          start:48
+          end:50
+          type:string
+     - column:AA-BILAGSKODE1
+          start:50
+          end:52
+          type:string
+     - column:AA-MDATO2
+          start:52
+          end:58
+          type:string
+     - column:AA-MSTED2
+          start:58
+          end:61
+          type:string
+     - column:AA-FRATRDATO
+          start:61
+          end:67
+          type:string
+     - column:AA-AVAARS
+          start:67
+          end:68
+          type:string
+     - column:AA-FERIE-FRI
+          start:68
+          end:71
+          type:string
+     - column:AA-BILAGSKODE2
+          start:71
+          end:73
+          type:string
+     - column:AA-KODE15
+          start:73
+          end:74
+          type:string
+     - column:AA-REDERNR
+          start:74
+          end:78
+          type:string
+     - column:AA-SKIPSNAVN
+          start:78
+          end:107
+          type:string
+     - column:AA-KJSIGN
+          start:107
+          end:115
+          type:string
+     - column:AA-REDER-BAATNR
+          start:115
+          end:124
+          type:string
+     - column:AA-SKNASJ
+          start:124
+          end:127
           type:string
