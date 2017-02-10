@@ -45,19 +45,10 @@ fileIn = ''
 record_jsonList = []
 for record in recordsList:
     record_json = {}
-    for column in config['columns']:
-        if column['columnStart'] is None:
-            continue
-        if column['columnCondition'] is not None:
-            if type(column['columnCondition']) == list:
-                for condition in column['columnCondition']:
-                    if record[condition['columnConditionStart']:condition['columnConditionEnd']] == condition['columnConditionCondition']:
-                            record_json[column['columnName']] = record[column['columnStart']:column['columnEnd']]
-            else:
-                if record[column['columnCondition']['columnConditionStart']:column['columnCondition']['columnConditionEnd']] == column['columnCondition']['columnConditionCondition']:
-                    record_json[column['columnName']] = record[column['columnStart']:column['columnEnd']]
-            continue
-        record_json[column['columnName']] = record[column['columnStart']:column['columnEnd']]
+    columnList = []
+    columnList.extend(config['columns']['common'])
+    columnList.extend(config['columns'][record[config['record_type']['start']:config['record_type']['end']]])
+    for column in columnList:
+        record_json[column['name']] = record[column['start']:column['end']]
     record_jsonList.append(record_json)
-print(len(record_jsonList))
-
+    
